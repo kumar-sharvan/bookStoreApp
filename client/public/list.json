@@ -1,0 +1,84 @@
+
+
+[
+    {
+        "id":1,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":2,
+        "name":"Music Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":100,
+        "category":"song",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":3,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":4,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":40,
+        "category":"paid",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":5,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"song",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":6,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":7,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":8,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":9,
+        "name":"Story Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":0,
+        "category":"Free",
+        "image":"./bookImg.jpg"
+    },
+    {
+        "id":10,
+        "name":"Yoga Book",
+        "title":"lorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+        "price":80,
+        "category":"paid",
+        "image":"./bookImg.jpg"
+    }
+]

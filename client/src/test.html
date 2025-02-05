@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <input
+        type="text"
+        placeholder="Enter Your Name..."
+        class="name"
+        id="name"
+      />
+      <input type="email" placeholder="Enter your email..." id="email" />
+      <input type="password" id="password" placeholder="Enter your password" />
+      <input
+        type="password"
+        id="cnfrmpassword"
+        placeholder="Enter confirm password"
+      />
+      <button onclick="validateInput()">Submit</button>
+    </div>
+
+    <script>
+      function validateInput() {
+        // Get the current values of the input fields
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let password = document.getElementById("password").value.trim();
+        let cnfrmpassword = document
+          .getElementById("cnfrmpassword")
+          .value.trim();
+
+        // Check if any field is empty
+        if (!name || !email || !password || !cnfrmpassword) {
+          alert("All fields are required!");
+          return false;
+        }
+
+        // Check if passwords match
+        if (password !== cnfrmpassword) {
+          alert("Passwords must match!");
+          return false;
+        }
+
+        alert("Form submitted successfully!");
+        return true;
+      }
+    </script>
+  </body>
+</html>
