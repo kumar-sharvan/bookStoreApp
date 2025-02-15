@@ -5,10 +5,18 @@ export const AuthContext = createContext();
 
 // AuthProvider component
 const AuthProvider = ({ children }) => {
-  const initialUser = localStorage.getItem("token");
-  const [authUser, setAuthUser] = useState(
-    initialUser ? JSON.parse(initialUser) : undefined
-  );
+  // ✅ Get token from localStorage
+  const token = localStorage.getItem("token");
+
+  let initialUser = undefined;
+  try {
+    initialUser = token ? JSON.parse(token) : undefined;
+  } catch (error) {
+    console.error("Invalid token format:", error);
+    initialUser = undefined;
+  }
+
+  const [authUser, setAuthUser] = useState(initialUser);
 
   return (
     <AuthContext.Provider value={[authUser, setAuthUser]}>
