@@ -12,25 +12,25 @@ const Footer = () => {
             {/* Social Media Links */}
             <a
               className="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://www.facebook.com/"
             >
               <i className="fab fa-facebook-f"></i>
             </a>
             <a
               className="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://x.com/?lang=en-in&mx=2"
             >
               <i className="fab fa-twitter"></i>
             </a>
             <a
               className="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://github.com/kumar-sharvan"
             >
               <i className="fab fa-github"></i>
             </a>
             <a
               className="btn btn-link btn-floating btn-lg text-body m-1"
-              href="#!"
+              href="https://www.linkedin.com/in/sharvan-kumar-443263320/"
             >
               <i className="fab fa-linkedin"></i>
             </a>
