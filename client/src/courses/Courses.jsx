@@ -33,10 +33,13 @@ const Courses = () => {
             for you!
           </h2>
           <p className="text-center mt-3 mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            ab perspiciatis tempora quae praesentium laudantium provident
-            reiciendis ullam! Ab consequatur at eius neque non facilis
-            laboriosam voluptas aperiam ipsam inventore.
+            📚 BookStore App – Your One-Stop Destination for Books 📚 <br />
+            The BookStore App is a digital marketplace where book lovers can
+            explore, purchase, and read their favorite books anytime, anywhere.
+            Whether you’re looking for bestsellers, academic books, or rare
+            classics, this app offers a seamless shopping experience with a
+            user-friendly interface, secure payments, and personalized
+            recommendations.
           </p>
           <Link to="/" style={{ textDecoration: "none" }}>
             <button className="btn btn-danger d-block mb-5 m-auto fw-bold ">
