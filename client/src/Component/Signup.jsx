@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { toast } from "react-toastify";
 
@@ -7,29 +7,31 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // ✅ Password validation
+    if (password.length < 6) {
+      alert("Password must be at least 6 characters long!");
+      return;
+    }
+
     try {
       const response = await axios.post("http://localhost:3000/user/signup", {
         name,
         email,
         password,
       });
-
-      // Show success notification
-      toast.success("User created successfully!", {
-        position: "top-center",
-      });
-
-      console.log(response);
+      if (response) {
+        toast.success("User created successfully!", { position: "top-right" });
+        navigate("/login");
+      }
     } catch (error) {
-      // Show error notification
       toast.error(error.response?.data?.message || "Something went wrong!", {
         position: "top-center",
       });
-
-      console.log("Error: ", error);
     }
   };
 
