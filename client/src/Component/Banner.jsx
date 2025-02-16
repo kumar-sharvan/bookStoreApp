@@ -14,10 +14,15 @@ const Banner = () => {
             </span>
           </h1>
           <p className="mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-            mollitia illum impedit id! Voluptate, nemo. Recusandae provident
-            dolor, voluptas odit ducimus quaerat, explicabo molestiae aperiam
-            quia facere deleniti doloribus architecto!
+            The Books App is your ultimate reading companion, offering a vast
+            collection of books across different genres, including fiction,
+            non-fiction, self-help, educational, and more. Whether you're a
+            casual reader or a book enthusiast, this app provides an immersive
+            reading experience with features like offline reading, bookmarks,
+            dark mode, font customization, and personalized recommendations.
+            <br />
+            Transform your reading habits with the Books App – explore, read,
+            and grow your knowledge effortlessly! 📖✨
           </p>
 
           <div class="input-group flex-nowrap">
