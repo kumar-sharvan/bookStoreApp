@@ -10,7 +10,7 @@ const Courses = () => {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/book");
+        const response = await axios.get("https://bookstoreapp-hi6p.onrender.com/book");
         const updatedBooks = response.data.map((item, index) => ({
           ...item,
           name: bookNames[index % bookNames.length], // Assign new book names
