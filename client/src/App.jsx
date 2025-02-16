@@ -25,15 +25,15 @@ function App() {
         <div>
           <ToastContainer />
           <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Home/>}></Route>
+            <Route path="/about" element={<About/>} />
+            <Route path="/contact" element={<Contact/>} />
             <Route
               path="/courses"
-              element={authUser ? <Courses /> : <Navigate to="/signup" />}
+              element={authUser ? <Courses/> : <Navigate to="/signup"/>}
             ></Route>
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/login" element={<Login/>} />
+            <Route path="/signup" element={<Signup/>} />
           </Routes>
         </div>
       </Router>
