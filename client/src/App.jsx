@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Router>
-        <div>
+      
           <ToastContainer />
           <Routes>
             <Route path="/" element={<Home/>}></Route>
@@ -35,7 +35,7 @@ function App() {
             <Route path="/login" element={<Login/>} />
             <Route path="/signup" element={<Signup/>} />
           </Routes>
-        </div>
+   
       </Router>
     </>
   );
