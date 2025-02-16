@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Home from "./Home/Home";
-import Courses from "./courses/courses";
+import Courses from "./courses/Courses";
 import {
   BrowserRouter as Router,
   Routes,
