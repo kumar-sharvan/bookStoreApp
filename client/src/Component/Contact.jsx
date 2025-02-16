@@ -15,7 +15,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/contact",
+        "https://bookstoreapp-hi6p.onrender.com/api/contact",
         formData
       );
       console.log(response);
